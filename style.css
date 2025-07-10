@@ -1,0 +1,70 @@
+/* shared styles start*/
+.text-primary {
+  color: #4e47ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.btn-primary {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  background-color: #4e47ff;
+  font-weight: 700;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.dark-primary {
+  font-family: "Raleway", sans-serif;
+  color: #252432;
+  font-weight: 700;
+}
+/* shared styles end*/
+
+.header {
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Header START */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LOGO {
+}
+
+/* Header END */
+
+/*HERO START*/
+
+.hero {
+  margin-top: 158px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.herotext {
+ font-size: 65px;
+}
+
+.herobtnt {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  background-color: #4e47ff;
+  width: 174px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+}
+/*HERO END*/
