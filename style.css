@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* shared styles start*/
 .text-primary {
   color: #4e47ff;
@@ -24,9 +30,7 @@
 /* shared styles end*/
 
 .header {
-  margin-top: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin: 50px 150px 50px 150px;
 }
 
 /* Header START */
@@ -45,26 +49,39 @@
 /*HERO START*/
 
 .hero {
-  margin-top: 158px;
-  margin-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 309px 267.5px 237px 267.5px;
 }
 
 .herotext {
- font-size: 65px;
+  font-size: 65px;
 }
 
-.herobtnt {
-  font-family: "Raleway", sans-serif;
-  color: #ffffff;
-  background-color: #4e47ff;
-  width: 174px;
-  height: 48px;
-  border-radius: 10px;
-  border: none;
-  font-weight: 700;
+.herobtn {
+  margin-top: 37px;
 }
 /*HERO END*/
+
+/*ACTION START*/
+.action {
+  margin: 50px 150px 50px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divtext {
+  font-size: 42px;
+}
+.divtext2 {
+  font-weight: 300;
+  font-size: 24;
+  opacity: 50%;
+}
+.miniimg {
+  border-radius: 48px;
+}
+/*ACTION END*/
