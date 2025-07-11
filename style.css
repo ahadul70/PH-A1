@@ -2,11 +2,26 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  background-color: rgb(245, 248, 255)  ;
 
+}
+.background{
+  margin: 0;
+  padding: 0;
+  background-image: url(Assets/Hero-bg.png);
+   background-repeat: no-repeat;     
+  background-size: cover;            
+  background-position: center;   
+  height: 100vh;
+}
 /* shared styles start*/
 .text-primary {
   color: #4e47ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.text-secondary {
+  color: #000000;
   font-family: "Inter", sans-serif;
   font-weight: 700;
 }
@@ -27,10 +42,21 @@ body {
   color: #252432;
   font-weight: 700;
 }
+
+.big{
+  font-size:80px ;
+ margin-bottom: 4px;
+}
+.small{
+  font-weight: 400;
+  font-size: 20;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+}
 /* shared styles end*/
 
 .header {
-  margin: 50px 150px 50px 150px;
+ padding: 50px 150px ;
 }
 
 /* Header START */
@@ -39,6 +65,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .LOGO {
@@ -54,6 +81,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 309px 267.5px 237px 267.5px;
+  
 }
 
 .herotext {
@@ -67,10 +95,11 @@ body {
 
 /*ACTION START*/
 .action {
-  margin: 50px 150px 50px 150px;
+  margin: 116px 150px 116px 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .divtext {
@@ -85,3 +114,64 @@ body {
   border-radius: 48px;
 }
 /*ACTION END*/
+
+/*ProductiveUsers start*/
+.productive-users {
+  background-color: rgba(77, 71, 255, 0.1);
+  text-align: center;
+  margin: 116px 150px;
+  border-radius: 24px;
+  padding-bottom: 5px;
+
+}
+
+.user-stats {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  height: 200px;
+}
+
+
+.Ptex1{
+  font-size: 38px;
+  padding-top: 42px ;
+  margin-bottom: 0;
+}
+
+/*ProductiveUsers END*/
+
+
+
+/*Testimonial start*/
+.Ptex{
+  font-size: 42px;
+}
+
+.stat2{
+  background-color: rgba(255, 255, 255, 0.50);
+  border-color: rgb(242, 237, 237);
+  border-radius: 14px;
+  padding: 15px;
+   font-family: "Inter", sans-serif;
+}
+
+.stat2 h3{
+  font-size: 15px;
+
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+.reviewer{
+  display: flex;
+  align-items: center;
+}
+/*Testimonial END*/
+
+
+.text{
+  display: flex;
+}
