@@ -2,16 +2,15 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(245, 248, 255)  ;
-
+  background-color: rgb(245, 248, 255);
 }
-.background{
+.background {
   margin: 0;
   padding: 0;
   background-image: url(Assets/Hero-bg.png);
-   background-repeat: no-repeat;     
-  background-size: cover;            
-  background-position: center;   
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 /* shared styles start*/
@@ -43,20 +42,38 @@ body {
   font-weight: 700;
 }
 
-.big{
-  font-size:80px ;
- margin-bottom: 4px;
+.big {
+  font-size: 80px;
+  margin-bottom: 4px;
 }
-.small{
+.small {
   font-weight: 400;
   font-size: 20;
   color: rgba(0, 0, 0, 0.5);
   margin-top: 0;
 }
+
+.input {
+  width: 498px;
+  border-radius: 10px;
+  border: none;
+  height: 70px;
+  padding-left: 20px;
+  font-family: "Inter", sans-serif;
+  color: #252432;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #5e5c75;
+  color: #000000;
+  transform: scale(1.1);
+}
 /* shared styles end*/
 
 .header {
- padding: 50px 150px ;
+  padding: 50px 150px;
 }
 
 /* Header START */
@@ -65,7 +82,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .LOGO {
@@ -80,17 +96,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 309px 267.5px 237px 267.5px;
-  
+  margin: 90px 267.5px 237px 260.5px;
 }
 
 .herotext {
   font-size: 65px;
 }
 
-.herobtn {
-  margin-top: 37px;
-}
+
 /*HERO END*/
 
 /*ACTION START*/
@@ -99,7 +112,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .divtext {
@@ -122,7 +134,6 @@ body {
   margin: 116px 150px;
   border-radius: 24px;
   padding-bottom: 5px;
-
 }
 
 .user-stats {
@@ -132,46 +143,116 @@ body {
   height: 200px;
 }
 
-
-.Ptex1{
+.Ptex1 {
   font-size: 38px;
-  padding-top: 42px ;
+  padding-top: 42px;
   margin-bottom: 0;
 }
 
 /*ProductiveUsers END*/
 
-
-
 /*Testimonial start*/
-.Ptex{
+.Ptex2 {
   font-size: 42px;
+  text-align: center;
+  
 }
 
-.stat2{
-  background-color: rgba(255, 255, 255, 0.50);
+.stat2 {
+  background-color: rgba(255, 255, 255, 0.5);
   border-color: rgb(242, 237, 237);
   border-radius: 14px;
   padding: 15px;
-   font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+
 }
 
-.stat2 h3{
+.stat2 h3 {
   font-size: 15px;
-
 }
 
-.avatar{
+.avatar {
   border-radius: 50%;
 }
 
-.reviewer{
+.reviewer {
   display: flex;
   align-items: center;
+ 
+  gap: 10px;
 }
+
+.div2 h3,
+.div2 h4 {
+  margin: 0;
+  line-height: 1.2; 
+  font-weight: 300;
+  color: #5e5c75;
+}
+
 /*Testimonial END*/
 
+/*get_in_touch START*/
 
-.text{
+.text {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 150px;
 }
+
+.text h2 {
+  font-size: 97px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h3 {
+  font-weight: 300;
+}
+.text_box {
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+
+/*get_in_touch END*/
+
+/*Footer start*/
+
+footer {
+  background-color: #ffffff;
+  padding-bottom: 100px;
+}
+.logoLarge {
+  font-size: 100px;
+  margin-bottom: 0;
+}
+.text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text1 h2 {
+  font-family: "Inter", sans-serif;
+  color: #8987a1;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.text2 a {
+  text-decoration: none;
+  color: #8987a1;
+  font-family: "Inter", sans-serif;
+}
+/*Fotter end */
